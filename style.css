@@ -31,6 +31,15 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
 .container {
     max-width: 920px;
     margin: 0 auto;
